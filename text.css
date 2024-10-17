@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+   
+    background: black;
+    color: white;
+}
+
+#clock-container {
+     
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#clock{
+    font-family:  monospace;
+    font-size: 6.5rem;
+    font-weight: bolder;
+    text-align: center;
+    backdrop-filter: blur(50px);
+
+
+}
